@@ -11,6 +11,7 @@ reset='\033[0m'
 y='\033[1;33m'
 echo -e "$cyan"
 figlet  -f big " Ali "
+ifconfig wlan0 | grep -o 192..........
 echo -e " $y      ($g Ali$y ,$p max$y $y )"
 
 echo ""
