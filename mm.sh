@@ -23,6 +23,7 @@ echo -e "$p [$y 2$p ]$g payload  android"
 echo -e "$p [$y 3$p ]$g payload  windows"
 echo -e "$p [$y 4$p ]$g Android  penetration msf"
 echo -e "$p [$y 5$p ]$g windows  penetration msf"
+echo -e "$p [$y 5$p ]$g ngrok"
 echo ""
 echo ""
 a00(){
@@ -149,6 +150,8 @@ elif [ "$tool" == "4" ]; then
 a4
 elif [ "$tool" == "5" ]; then
 a5
+elif [ "$tool" == "6" ]; then
+a9
 elif [ "$tool" == "00" ]; then
 a00
 else
