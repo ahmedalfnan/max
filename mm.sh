@@ -125,7 +125,14 @@ msfconsole -r .msf1.rc
 
 }
 
+a9(){
+cd 
+cd ali
+./ngrok tcp 4444
 
+
+
+}
 
 echo -e "$cyan"
 read -p "Number--->   " tool
