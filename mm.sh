@@ -23,7 +23,7 @@ echo -e "$p [$y 2$p ]$g payload  android"
 echo -e "$p [$y 3$p ]$g payload  windows"
 echo -e "$p [$y 4$p ]$g Android  penetration msf"
 echo -e "$p [$y 5$p ]$g windows  penetration msf"
-echo -e "$p [$y 5$p ]$g ngrok"
+echo -e "$p [$y 6$p ]$g ngrok"
 echo ""
 echo ""
 a00(){
